@@ -1,0 +1,10 @@
+<h2>All Categories</h2>
+<% if(category && category.length > 0){ %>
+  <% category.forEach(function(c){ %>
+    <div>
+      <%= c.content %>
+    </div>
+  <% }); %>
+<% } else { %>
+  <h3>No Categories Yet!</h3>
+<% } %>

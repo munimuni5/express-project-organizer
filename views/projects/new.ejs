@@ -8,18 +8,23 @@
 
   <div class="form-group">
     <label for="githubLink">Github Link</label>
-    <input type="text" class="form-control" id="githubLink" name="githubLink" required>
+    <input type="url" class="form-control" id="githubLink" name="githubLink" required>
   </div>
 
   <div class="form-group">
     <label for="deployedLink">Deployed Link</label>
-    <input type="text" class="form-control" id="deployedLink" name="deployedLink" required>
+    <input type="url" class="form-control" id="deployedLink" name="deployedLink" required>
   </div>
 
   <div class="form-group">
     <label for="description">Description</label>
     <textarea type="text" class="form-control" id="description" name="description" required></textarea>
   </div>
+
+  <div class="form-group">
+  <label>Category:</label>
+  <textarea type="text" name="category" placeholder="comma-seperated list of categories" class="form-control"></textarea>
+</div>
 
   <input type="submit" class="btn btn-primary">
 </form>
